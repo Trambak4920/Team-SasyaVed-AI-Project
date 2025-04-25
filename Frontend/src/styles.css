@@ -1,0 +1,70 @@
+body, html, #root, .App {
+    margin: 0; padding: 0; height: 100%;
+  }
+  .App {
+    background: #f9f9f9;
+    /* Watermark background */
+    position: relative;
+  }
+  .App::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: url('../public/collage.jpg') center/cover no-repeat;
+    opacity: 0.1;
+    z-index: -1;
+  }
+  .app-header {
+    display: flex; align-items: center;
+    background-color: #2e7d32; /* Green */
+    color: white;
+    padding: 10px;
+  }
+  .logo {
+    height: 50px; width: auto;
+    margin-right: 20px;
+  }
+  .page-title {
+    font-size: 24px;
+  }
+  .content {
+    padding: 20px;
+  }
+  .form-container {
+    max-width: 500px; margin: 40px auto;
+    background: white; padding: 20px; border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  .form-box {
+    display: flex; flex-direction: column;
+  }
+  .form-box.full-width input {
+    width: 100%;
+  }
+  .form-box label {
+    margin-top: 10px;
+  }
+  .form-box input, .form-box select, .form-box textarea, .form-box button {
+    margin-top: 5px; padding: 8px; font-size: 16px;
+  }
+  .form-box button {
+    margin-top: 15px; cursor: pointer;
+  }
+  .dashboard {
+    display: flex; justify-content: space-around; flex-wrap: wrap;
+  }
+  .dash-card {
+    display: block;
+    width: 200px; height: 150px;
+    background: white; text-align: center; line-height: 150px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-decoration: none;
+    color: #2e7d32;
+    font-weight: bold;
+  }
+  .result-box {
+    background: #fff; padding: 15px; margin-top: 20px; border-radius: 6px;
+  }
+  
