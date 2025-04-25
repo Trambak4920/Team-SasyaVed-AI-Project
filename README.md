@@ -44,6 +44,7 @@ KrishkAI is an end-to-end, AI-driven agri-tech platform designed to empower farm
 
 ## 📁 Project Structure
 
+```
 project-root/ 
 ├── frontend/ # React App (UI) 
 │   ├── public/
@@ -77,3 +78,4 @@ project-root/
 │   ├── Disease_Detection.py 
 │   └── DD_from_pic.py 
 └── README.md
+```
