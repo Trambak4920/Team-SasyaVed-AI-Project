@@ -123,3 +123,22 @@ KrishkAI/
 |`/knowledge-hub`|POST|LLM-based query interface|
 
 ---
+
+## 🧪 Datasets Used
+- PlantDoc Dataset (For Training the Disease Detection Model)
+  ```
+  https://www.kaggle.com/datasets/nirmalsankalana/plantdoc-dataset
+  ```
+
+---
+
+## 📌 Acknowledgements
+- FastAPI and TensorFlow Teams
+- Hugging Face Community Models
+
+---
+
+## 🤝 Authors and Team Members
+- Trambak Konar
+- Esha Halder
+- Argha Roy Choudhary
