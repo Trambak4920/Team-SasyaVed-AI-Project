@@ -83,7 +83,43 @@ KrishkAI/
 ---
 
 ## ⚙️ Setup Instructions
-### 1. Clone the Repository
-```bash
-git clone 
-```
+- **1. Clone the Repository**
+  ```bash
+  git clone https://github.com/Trambak4920/Team-SasyaVed-AI-Project.git
+  cd KrishkAI
+  ```
+  
+- **2. Activate the Virtual Evironment in the Backend**
+  ```bash
+  cd Backend
+  python3 -m venv venv
+  source venv/bin/activate
+  ```
+  
+- **3. Start the Backend**
+  ```bash
+  pip install -r requirements.txt
+  uvicorn main:app --reload
+  ```
+
+- **4. Start the Frontend**
+  ```bash
+  cd ../frontend
+  npm install
+  npm start
+  ```
+
+---
+
+## 🌐 API Endpoints
+
+|Endpoints      |Method      |Description      |
+|---------------|------------|-----------------|
+|`/login`|POST|User Login|
+|`/register`|POST|User registration|
+|`/recommend-crop`|POST|Crop recommendation engine|
+|`/detect-disease/image`|POST|Disease detection from image|
+|`/detect-disease/video`|POST|Disease detection from video|
+|`/knowledge-hub`|POST|LLM-based query interface|
+
+---
